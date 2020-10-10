@@ -1,0 +1,66 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ background: #34495e;
+ 
+}
+.App{
+  background-color: #3f3160;
+
+  width: 400px;
+  margin: 40px auto;
+  top: 50%;
+  left: 50%;
+  background: #191919;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+#to-do-form li{
+ border: 0;
+ background: none;
+ display: block;
+ margin: 20px auto;
+ text-align: center;
+ border: 2px solid #3498db;
+ padding: 14px 10px;
+ width: 200px;
+ outline: none;
+ color: white;
+ border-radius: 24px;
+ transition: 0.25s;
+}
+#to-do-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+#to-do-form div:focus{
+  outline: none;
+}
+
+#to-do-form button:focus{
+  outline: none;
+}
+
+.like-button {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #ededed;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+}
